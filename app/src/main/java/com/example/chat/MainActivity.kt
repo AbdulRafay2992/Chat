@@ -76,7 +76,7 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
         Text(
-            text = "Welcome to Jetpack Compose!", // Use MaterialTheme.typography.h4
+            text = "Welcome!", // Use MaterialTheme.typography.h4
             modifier = Modifier.padding(bottom = 8.dp)
         )
         Button(
